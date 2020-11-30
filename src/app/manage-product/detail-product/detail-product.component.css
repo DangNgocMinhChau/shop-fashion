@@ -1,0 +1,108 @@
+.information-detail-parent {
+
+}
+
+.information-detail-parent .title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.information-detail-parent .price-product {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.information-detail-parent .button {
+  width: 30px;
+  height: 50px;
+  background: #004A7F;
+  color: #FFFFFF;
+}
+
+.information-detail-parent .text {
+  width: 50px;
+  height: 50px;
+  background: whitesmoke;
+  text-align: center;
+}
+
+.information-detail-parent input {
+  border: 0px;
+  background: wheat;
+}
+
+.information-detail-parent input:focus {
+  border: 0px;
+  outline: 0;
+}
+
+.information-detail-parent .button:focus {
+  outline: 0;
+}
+
+.information-detail-parent .button:hover {
+  background: #003b72;
+  outline: 0;
+}
+
+.information-detail-parent .button-detail {
+  background: #d26e4b;;
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  transition: 0.4s;
+}
+
+.information-detail-parent .button-detail:hover {
+  background: #9d533d;
+}
+
+.information-detail-parent .button-detail:focus {
+  outline: 0;
+}
+
+.img-slide {
+  position: relative;
+  width: 120px;
+  height: 100px;
+  transition: 0.4s;
+}
+
+.img-slide:hover {
+ border: 1px solid gray;
+}
+
+.img-slide img {
+  position: absolute;
+  width: 100%;
+  transition: 0.4s;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.img-slide:hover img {
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.more-info1{
+
+}
+
+.more-info1 h6{
+
+}
+
+
+.more-info2{
+
+}
+
+.more-info2 h6{
+  font-weight: normal;
+}

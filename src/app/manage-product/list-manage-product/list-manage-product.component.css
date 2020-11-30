@@ -1,0 +1,152 @@
+.custom-table {
+
+}
+
+.custom-table .bg-title-table {
+
+}
+
+.custom-table .title-table {
+  background: firebrick;
+  transition: 0.4s;
+}
+
+.custom-table .title-table:hover {
+  background: #791c1c;
+}
+
+.custom-table .title-table th {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+
+.custom-table .filter-product {
+
+}
+
+
+.custom-table .filter-product .refresh {
+  text-transform: uppercase;
+  background: firebrick;
+  border: 0;
+  color: whitesmoke;
+}
+
+.custom-table .filter-product .refresh:active {
+
+  background: #6f1d1d;
+}
+
+
+.custom-table .filter-product .refresh:focus {
+  outline: 0;
+}
+
+.refresh {
+  position: relative;
+  width: 100px;
+  height: 33px;
+}
+
+.refresh .img-refresh {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.refresh .name-refresh {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  transition: 0.4s;
+}
+
+.refresh:hover .img-refresh {
+  position: absolute;
+  top: 7px;
+  /*left: 50px;*/
+  opacity: 1;
+}
+
+.refresh:hover .name-refresh {
+  position: absolute;
+  top: 7px;
+  opacity: 0;
+
+}
+
+.button-dropDown-filter {
+  background: firebrick;
+  color: white;
+  border: 0px;
+
+}
+
+.button-dropDown-filter:hover {
+
+}
+
+.button-dropDown-filter:focus {
+  outline: 0;
+
+}
+
+
+/*danh mục sản phẩm*/
+
+.filter-product .category-filter {
+
+}
+
+.filter-product .category-filter h5 {
+  color: black;
+}
+/*info*/
+
+.info-table {
+
+}
+
+.info-table i {
+  color: #004A7F;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.info-table i:hover {
+  color: firebrick;
+  /*box-shadow: 2px 2px 5px 2px gray;*/
+  /*border-radius: 50%;*/
+  transform: rotate(50deg);
+}
+
+/*phân trang*/
+
+.panigation-list-product {
+
+}
+
+.panigation-list-product nav ul li a {
+  color: black;
+  transition: 0.4s;
+}
+
+.panigation-list-product nav ul li a:hover {
+  color: whitesmoke;
+  background: firebrick
+}
+
+.panigation-list-product nav ul li test {
+  border: 0px;
+}
+
+.panigation-list-product nav ul li test:focus {
+  outline: 0;
+}
+
+
+

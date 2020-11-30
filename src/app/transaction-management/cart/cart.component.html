@@ -1,0 +1,171 @@
+<div class="container-fluid m-auto">
+  <div class="row">
+    <div class="col-md-7 mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="title">
+            Sản phẩm
+          </div>
+          <hr class="hr-cart">
+          <div class="product-value">
+            <a href=""><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+            <img src="../../../assets/img/detail/women-classic-1-600x384.jpg" alt="">
+            <span class="name-product">Tên sản phẩm</span>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="title">
+            Giá
+          </div>
+          <hr class="hr-cart">
+
+          <div class="product-value">
+            <p class="prince-cart">1.200.000</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="title">
+            số lượng
+          </div>
+          <hr class="hr-cart">
+
+          <div class="information-detail-parent">
+            <input class="button" type="button" [disabled]="countProduct == 0" (click)="subtraction()" value="-">
+            <input class="text" type="text" value="{{countProduct}}">
+            <input class="button" type="button" (click)="addition()" value="+">
+          </div>
+
+        </div>
+        <div class="col-md-2">
+          <div class="title">
+            Tổng
+          </div>
+          <hr class="hr-cart">
+
+          <div class="product-value">
+            <div class="prince-cart">
+              1.200.000
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-cart">
+      <div class="row button-cart">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-5 button-continue">
+          <button><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Tiếp tục xem sản phẩm</button>
+        </div>
+        <div class="col-md-5  button-update ">
+          <button>Cập nhật sản phẩm <i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-md-1">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 mt-5 buil-common">
+      <div class="title">
+        Tổng
+      </div>
+      <hr class="hr-cart">
+      <div class="count-product-cart">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="left">Số lượng</p>
+            <hr >
+          </div>
+
+          <div class="col-md-6">
+            <p class="right" style="">2</p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="left">Tổng phụ</p>
+            <hr >
+          </div>
+
+          <div class="col-md-6">
+            <p class="right" style="">1.200.000</p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="left">Giảm giá</p>
+            <hr >
+          </div>
+
+          <div class="col-md-6">
+            <p class="right" style="">30%</p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="left">Địa chỉ giao hàng</p>
+            <hr >
+          </div>
+
+          <div class="col-md-6">
+            <input class="right" placeholder="Mời nhập địa chỉ" style="font-weight: normal">
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="left">Tổng</p>
+            <hr >
+          </div>
+
+          <div class="col-md-6">
+            <p class="right" style="">1.200.000</p>
+            <hr>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="hr-cart">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row button-cart">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10 button-buy">
+              <button>Tiến hành đặt hàng</button>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="title mt-5"><i class="fa fa-tag" aria-hidden="true"></i>Phiếu ưu đãi</p>
+      <hr class="hr-cart">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Mã ưu đãi" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Áp dụng</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr-cart">
+    </div>
+  </div>
+</div>

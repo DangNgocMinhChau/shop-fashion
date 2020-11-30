@@ -1,0 +1,262 @@
+
+.parent-create-img {
+
+}
+
+
+.parent-create-img:hover .tittle .text-title {
+  color: #004A7F;
+
+
+}
+
+.border-img {
+  /*border: 1px solid firebrick;*/
+}
+
+.tittle .text-title {
+  font-weight: bold;
+  font-size: 20px;
+  border-left: 3px solid gray;
+  padding-left: 10px;
+  transition: 0.4s;
+  color: firebrick;
+  text-transform: uppercase;
+}
+
+.upload i {
+  opacity: 1;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.inputfile + label {
+  color: firebrick;
+  background-color: whitesmoke;
+  border: 1px solid firebrick;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: firebrick;
+  color: gainsboro;
+
+}
+
+.inputfile + label:hover i {
+  transform: scale(1.5);
+}
+
+/*Thông tin cơ bản*/
+.name-input {
+
+}
+.info-common {
+  /*border: 2px solid gray;*/
+  transition: 1s;
+}
+
+.info-common:hover {
+  /*border-left: 1px solid gray;*/
+  /*border-right: 1px solid gray;*/
+  /*box-shadow: 5px 5px 10px 5px gray;*/
+  /*background: whitesmoke;*/
+}
+
+.info-common:hover .tittle .text-title {
+  color: #004A7F;
+}
+
+.name-input p {
+  text-align: right;
+}
+
+input {
+  /*margin-top: 5px;*/
+  margin-bottom: 12px;
+  width: 60%;
+  border: 0px;
+  border-bottom: 1px gray solid;
+}
+
+input:focus {
+  outline: 0;
+}
+
+textarea {
+  width: 60%;
+  resize: none;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+select {
+  width: 55%;
+  border-radius: 0px;
+}
+
+select:active {
+
+}
+
+
+select:focus {
+  /*border: 0;*/
+  outline: 0;
+}
+
+.add-category {
+  border: 1px solid black;
+  width: 34px;
+  height: 30px;
+  background: whitesmoke;
+  color: firebrick;
+}
+
+.add-category:focus {
+  outline: 0;
+}
+
+.add-category i {
+  font-size: 15px;
+}
+
+.add-category:hover {
+  background: firebrick;
+  color: whitesmoke;
+}
+
+
+/*button-add */
+
+.button-add button {
+  width: 40%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border: 1px solid firebrick;
+  color: firebrick;
+  background: whitesmoke;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: 0.4s;
+
+}
+
+.button-add button:hover {
+  background: firebrick;
+  color: whitesmoke;
+}
+
+.button-add button:focus {
+  outline: 0;
+}
+
+.button-add button:active{
+  background: #6d1e1e;
+  color: whitesmoke;
+}
+.button-add i {
+  margin-right: 20px;
+  transition: 0.4s;
+}
+
+.button-add:hover i {
+  transform: scale(1.5);
+}
+
+.button-add:active i {
+  margin-left: 10px;
+
+}
+
+
+
+/*chinh slide*/
+
+
+.bg-icon-img-navigate-right {
+  /*background: firebrick;*/
+}
+
+.common .bg-icon-img-navigate-right i {
+  font-size: 30px;
+  color: #622020;
+  margin-top: 100px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.common:hover .bg-icon-img-navigate-right i {
+  margin-top: 10px;
+  opacity: 1;
+}
+
+
+.common .bg-icon-img-navigate-right i:hover {
+  transform: scale(1.2);
+}
+
+
+.bg-icon-img-navigate-left {
+
+}
+
+.common .bg-icon-img-navigate-left i {
+  font-size: 30px;
+  color: #622020;
+  margin-top: 100px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.common:hover .bg-icon-img-navigate-left i {
+  margin-top: 10px;
+  opacity: 1;
+}
+
+
+.common .bg-icon-img-navigate-left i:hover {
+  transform: scale(1.2);
+}
+
+.common .remove-img-create i {
+  color: #622020;
+  font-size: 30px;
+  opacity: 0;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+
+
+.common:hover .remove-img-create i {
+  opacity: 0.4;
+}
+
+.common .remove-img-create i:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+
+.common .remove-img-create a {
+  margin-left: 45%;
+}
+

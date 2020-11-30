@@ -1,0 +1,191 @@
+.hr-cart {
+  border: 1px solid #b0b0b0;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-value a {
+  margin-right: 20px;
+}
+
+.product-value img {
+  margin-right: 20px;
+  width: 70px;
+}
+
+.product-value .name-product {
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.product-value .prince-cart {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+
+.information-detail-parent input {
+  border: 0px;
+  background: wheat;
+  width: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.information-detail-parent input:focus {
+  border: 0px;
+  outline: 0;
+}
+
+.information-detail-parent .button:focus {
+  outline: 0;
+}
+
+.information-detail-parent .button:hover {
+  background: #003b72;
+  outline: 0;
+}
+
+.button-cart {
+
+}
+
+.button-cart .button-continue {
+
+}
+
+.button-cart .button-continue button {
+  border: 1px solid firebrick;
+  background: whitesmoke;
+  color: firebrick;
+  width: 300px;
+  height: 50px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+
+.button-cart .button-continue button i {
+  font-size: 20px;
+  margin-right: -40px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.button-cart .button-continue button:hover i {
+  font-size: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+
+.button-cart .button-continue button:hover {
+  background: firebrick;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.button-cart .button-continue button:focus {
+  outline: 0;
+}
+
+
+/*update*/
+
+
+.button-cart .button-update button {
+  border: 1px solid firebrick;
+  background: whitesmoke;
+  color: firebrick;
+  width: 300px;
+  height: 50px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+
+.button-cart .button-update button i {
+  font-size: 20px;
+  margin-left: -20px;
+  opacity: 0;
+  transition: 0.4s;
+
+}
+
+.button-cart .button-update button:hover i {
+  font-size: 20px;
+  margin-left: 20px;
+  opacity: 1;
+}
+
+
+.button-cart .button-update button:hover {
+  background: firebrick;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.button-cart .button-update button:focus {
+  outline: 0;
+}
+
+
+/*button buy*/
+
+.button-cart .button-buy button {
+  border: 1px solid firebrick;
+  background: firebrick;
+  color: whitesmoke;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.button-cart .button-buy button:focus {
+  outline: 0;
+}
+
+.button-cart .button-buy:hover button {
+  background: #622020;
+}
+
+
+
+.count-product-cart {
+
+}
+
+.count-product-cart .right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.count-product-cart .left {
+  text-align: left;
+
+}
+.hr-cart {
+
+}
+
+.count-product-cart input {
+  border: 0;
+  width: 100%;
+
+}
+
+.count-product-cart input:focus {
+  outline: 0;
+}
+
+
+.buil-common {
+  border-left: 1px solid #c7c7c7;
+  margin-bottom: 20px;
+}

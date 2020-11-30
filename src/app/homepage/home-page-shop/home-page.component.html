@@ -1,0 +1,993 @@
+<div class="container-fluid m-auto common">
+
+  <div class="row size-header">
+    <div class="col-4 mt-4 register-common ">
+      <a href="" class="" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Đăng ký / Đăng nhập</a>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Đăng nhập tài khoản</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label>Tên tài khoản</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label>Mật khẩu</label>
+                  <input type="password" class="form-control" id="message-text">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Đăng nhập</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">Đăng ký</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel1">Đăng ký tài khoản</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label>Tên đăng ký</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="form-group">
+                  <label>Mật khẩu</label>
+                  <input type="password" class="form-control" >
+                </div>
+
+                <div class="form-group">
+                  <label>Nhập lại mật khẩu</label>
+                  <input type="password" class="form-control" >
+                </div>
+
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" >Đăng Ký</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-5 mt-4 ">
+        Tên của shop
+    </div>
+
+<!--    tìm kiếm-->
+
+    <div class="col-3  mt-4">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="tìm kiếm" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12 m-0 p-0 ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" width="500px" height="400px" src="./../assets/img/383_1550992661.jpg"
+                 alt="First slide">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" height="400px" src="./../assets/img/383_1550992661.jpg" alt="Second slide">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 " height="400px" src="./../assets/img/banner-bitis-hunter-redsnow.jpg"
+                 alt="Third slide">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Navbar-->
+
+  <div class="row  sticky-top nav-custom-parent">
+    <div class="col-1 bg-nav ">
+
+    </div>
+    <div class="col-10 p-0 m-0 ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-ul-custom" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active ml-2 mr-5">
+              <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+              <hr>
+            </li>
+            <li class="nav-item active  mr-5">
+              <a class="nav-link" href="#">Giới thiệu</a>
+              <hr>
+            </li>
+            <li class="nav-item active dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false">
+                Nam
+              </a>
+              <hr>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown active mr-5">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false">
+                nữ
+              </a>
+              <hr>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <li class="nav-item mr-5">
+              <a class="nav-link active" href="#">Phụ kiện khác</a>
+              <hr>
+            </li>
+
+            <li class="nav-item  active mr-5">
+              <a class="nav-link " href="#">Tin tức</a>
+              <hr>
+            </li>
+
+            <li class="nav-item active mr-5">
+              <a class="nav-link " href="#">Liên hệ</a>
+              <hr>
+            </li>
+          </ul>
+        </div>
+        <div class="cart">
+          <img src="./../assets/img/icon-footer/shopping-cart.svg" alt="">
+        </div>
+
+      </nav>
+    </div>
+    <div class="col-1 bg-nav">
+
+    </div>
+  </div>
+
+  <!-- dải phân cách -->
+
+  <div class="row mt-5 ml-5">
+    <div class="col-md-3">
+
+    </div>
+
+    <div class="col-md-6 m-auto router-product">
+      <ul class="nav nav-tabs">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Sản phẩm mới</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sản phẩm bán chạy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sản phẩm phổ biến</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-3">
+
+    </div>
+  </div>
+
+  <!-- Nới đăng sản phẩm -->
+  <div class="row mb-5 m-auto">
+    <div class="col-md-1">
+
+    </div>
+
+    <div class="col-md-10  ">
+      <div class="row">
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2">
+          <div class="cha">
+            <div class="hinh">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="chu">
+              <div class="ten">
+                Bitis hunter
+              </div>
+
+              <div class="gia">
+                1.500.000
+              </div>
+            </div>
+            <div class="mua">
+              <button type="button" class="btn btn-secondary them">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="col-md-1">
+
+    </div>
+  </div>
+
+
+  <!--  Dải phân cách-->
+
+  <div class="row mt-5">
+    <div class="col-md-1">
+
+    </div>
+
+    <div class="col-md-10">
+      <p class="seperate">Phụ kiện khác</p>
+      <hr style="border: 2px solid">
+    </div>
+
+    <div class="col-md-1">
+
+    </div>
+  </div>
+
+  <!--  nơi đăng phụ kiện khác-->
+
+  <div class="row">
+    <div class="col-md-1 mb-5">
+
+    </div>
+
+    <div class="col-md-10">
+      <div class="row">
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-accessories">
+                1.500.000
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="col-md-1 mb-5">
+
+    </div>
+
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-1">
+
+    </div>
+
+    <div class="col-md-10">
+      <p class="seperate">Đang giảm giá</p>
+      <hr style="border: 2px solid">
+    </div>
+
+    <div class="col-md-1">
+
+    </div>
+  </div>
+
+
+  <!--   Giảm giá -->
+
+
+  <div class="row">
+    <div class="col-md-1 mb-5">
+
+    </div>
+
+    <div class="col-md-10">
+      <div class="row">
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mb-2">
+          <div class="parent-accessories">
+            <div class="img-accessories">
+              <img src="./../assets/img/sanpham/download.jpg" alt="">
+            </div>
+
+            <div class="bg-sale2">
+              <p>hihi</p>
+            </div>
+            <div class="discount">
+              <p>30%</p>
+            </div>
+            <div class="title-accessories">
+              <div class="name-accessories">
+                Bitis hunter
+              </div>
+
+              <div class="prince-discount">
+                <span style="text-decoration-line: line-through">1.500.000</span> - <span>1.300.000</span>
+              </div>
+            </div>
+            <div class="buy-accessories">
+              <button type="button" class="btn btn-secondary btn-cover">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-1 mb-5">
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--  footer-->
+
+  <div class="row parent-footer ">
+    <div class="col-md-3 parent-footer-1">
+      <div class="title-footer-1">
+        <h4 class="title-f1">Giới thiệu</h4>
+        <hr class="hr-footer">
+        <p>Chào mừng bạn đến với shop áo quần của chúng tôi, vui lòng khách đến vừa lòng khách đi</p>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 parent-footer-2">
+      <div class="title-footer-2">
+        <h4 class="title-f2">Địa chỉ</h4>
+        <hr class="hr-footer">
+        <i class="fa fa-map-marker" aria-hidden="true"></i><span>H18/16 K96 Điện Biên Phủ, Đà Nẵng</span><br>
+        <i class="fa fa-phone" aria-hidden="true"></i><span>0905315214</span><br>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><span>Chaudang1595@gmail.com</span><br>
+
+      </div>
+    </div>
+
+
+    <div class="col-md-3 parent-footer-3">
+      <div class="title-footer-3">
+        <h4 class="title-f3">Mạng xã hội</h4>
+        <hr class="hr-footer">
+        <a href=""><img src="./../assets/img/icon-footer/facebook-circular-logo.svg" alt=""></a>
+        <a href=""><img src="./../assets/img/icon-footer/instagram.svg" alt=""></a>
+        <a href=""><img src="./../assets/img/icon-footer/twitter.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="col-md-3 parent-footer-4">
+      <div class="title-footer-4">
+        <h4 class="title-f4">Bản đồ</h4>
+        <hr class="hr-footer">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7667.935790696216!2d108.20071549999999!3d16.0671557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1606209697255!5m2!1svi!2s"
+          width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
